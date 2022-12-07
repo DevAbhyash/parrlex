@@ -1,0 +1,63 @@
+.para {
+    background: rgba(0, 0, 0, 0.555);
+    color: white;
+    padding: 2rem;
+}
+
+.video {
+    position: relative;
+}
+
+.video>div {
+    position: absolute;
+    top: 200px;
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.29);
+    position: relative;
+    padding: 2rem;
+    left: 30px;
+    top: -200px;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1 {
+    background-image: url(./image/joel-danielson-4C5VFF4jJ7Q-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-2 {
+    background-image: url(./image/surface-T8YJX3lpiMQ-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-3 {
+    background-image: url(./image/what-is-picture-perfect-rrgLZwQ31U0-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-4 {
+    background-image: url(./image/surface-T8YJX3lpiMQ-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    background: black;
+    color: wheat;
+    font-size: 3rem;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
